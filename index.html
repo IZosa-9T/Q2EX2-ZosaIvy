@@ -8,86 +8,53 @@
 
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 
+	<link rel="stylesheet" type="text/css" href="style.css">
+
 	<title>About me</title>
-
-	<style>
-		body {
-			background-color: #E2E6E6;
-			margin-top: 2%;
-		}
-
-		img {
-			border-radius: 	100px;
-			width: 200px;
-			border: 5px solid #DDB45A;
-		}
-
-		.center {
-			text-align: center;
-		}
-
-		button {
-			background-color: rgb(0, 0, 0, 0);
-			border-color: rgb(0, 0, 0, 0);
-			text-decoration: underline;
-		}
-
-		.interests {
-			margin-left: 10%;
-			margin-right: 10%;
-		}
-	</style>
-
 
 </head>
 <body>
 
-	<div class="container">
-		<div class="center">
-			<img src="profile.png" alt="pfp">
-			<h1>IVY AGUILAR ZOSA</h1>
-				<p>9-Topaz | OB Montessori Center, Greenhills Campus</p>
-		</div>
-					<hr>
-			<h2>about me</h2>
-			<div class="row">
-				<div class="col-sm-5">
-					<p>Heyayaya! I’m Ivy, a Grade 9 student at OB Montessori, I’m constantly exploring new subjects and expanding my knowledge. I have a deep interest in <strong>social studies</strong>, particularly in how society shapes the world around us and philosophy. </p>
-				</div>
-				<div class="col-sm-7">
-					<p>I’m also passionate about <strong>art</strong>. I aspire to become an artist one day, and I’m working hard to gain more experience and improve my skills in various forms of artistic expression. Creating art is not just a hobby for me but also a way to express myself. In my free time, I’m either scrolling through online art galleries or sketching new ideas. I look for inspiration and creative ways to explore my interests.</p>
-				</div>
-			</div>
-					<br/>
-					<br/>
-			<div class="interests">
-				<h2>interests</h2>
-					<ol>
-						<div class="row">
-							<div class="col-sm-6">
-								<li><button data-bs-toggle="collapse" data-bs-target="#read">Reading</button></li>
-									<div id="read" class="collapse">
-										<p>Reading is one of the ways i use to calm myself down. Reading distracts me from stress, noise, and my problems. But whether im stressed or not, I enjoy reading in my freetime.</p>
-									</div>
-								<li><button data-bs-toggle="collapse" data-bs-target="#art">Art</button></li>
-									<div id="art" class="collapse">
-										<p>As I mentioned earlier, I'm really passionate about art, which I use both as a way to express my feelings and to relax. It’s my favorite way to unwind and get creative.</p>
-									</div>
-							</div>
-							<div class="col-sm-6">
-								<li><button data-bs-toggle="collapse" data-bs-target="#games">Video games</button></li>
-									<div id="games" class="collapse">
-										<p>I love playing video games, not in a way that I wouldnt shower just to stare at my screen tho. Playing games, for me, is a great source of entertainment and its even better with friends!</p>
-									</div>
-								<li><button data-bs-toggle="collapse" data-bs-target="#sleep">Sleeping</button></li>
-									<div id="sleep" class="collapse">
-										<p>I am aware that sleeping is more of a habit rather than a hobby. But nowadays, for me, it really is hard to get enough sleep so I can work well. I truly enjoy sleeping or taking a nap even if its only 30 minutes to a few hours.</p>
-									</div>
-							</div>
-						</div>
-					</ol>
-				</div>
+<div class="container mt-5 ml-5">
+
+	<div class="col-md-4">
+		<img class="rounded-circle mx-auto d-block" src="profile.png" alt="pfp">
 	</div>
 
+	<div class="col-md-8">
+
+			<h1>IVY AGUILAR ZOSA</h1>	
+				<p class="desc">9-Topaz | OB Montessori Center, Greenhills Campus</p>
+
+					<hr>
+
+			<h3>About me</h3>
+				<p>Heyayaya! I’m Ivy, I was born and raised in the Philippines (10/04/10), but I'm not very good at tagalog. I am a Grade 9 student at OB Montessori, constantly exploring new subjects and expanding my knowledge. I have a deep interest in <strong>social studies and values education</strong>, particularly in how society shapes the world around us and philosophy.
+					<br/>
+					<br/>
+				I’m also passionate about <strong>art</strong>. I aspire to become an artist one day, and I’m working hard to gain more experience and improve my skills in various forms of artistic expression. Creating art is not just a hobby for me but also a way to express myself. In my free time, I’m either scrolling through online art galleries or sketching new ideas. I look for inspiration and creative ways to explore my interests.</p>
+
+
+			<h3>Interests</h3>
+				<ol>
+					<li><button data-bs-toggle="collapse" data-bs-target="#read">Reading</button></li>	
+						<div id="read" class="collapse" style="color: gray;">
+							<p>Reading is one of the ways i use to calm myself down. Reading distracts me from stress, noise, and my problems. But whether im stressed or not, I enjoy reading in my freetime.</p>
+							</div>
+					<li><button data-bs-toggle="collapse" data-bs-target="#art">Art</button></li>
+						<div id="art" class="collapse" style="color: gray;">
+							<p>As I mentioned earlier, I'm really passionate about art, which I use both as a way to express my feelings and to relax. It’s my favorite way to unwind and get creative.</p>
+						</div>
+					<li><button data-bs-toggle="collapse" data-bs-target="#games">Video games</button></li>
+						<div id="games" class="collapse" style="color: gray;">
+							<p>I love playing video games, not in a way that I wouldnt shower just to stare at my screen tho. Playing games, for me, is a great source of entertainment and its even better with friends!</p>
+						</div>
+					<li><button data-bs-toggle="collapse" data-bs-target="#sleep">Sleeping</button></li>
+						<div id="sleep" class="collapse" style="color: gray;">
+							<p>I am aware that sleeping is more of a habit rather than a hobby. But nowadays, for me, it really is hard to get enough sleep so I can work well. I truly enjoy sleeping or taking a nap even if its only 30 minutes to a few hours.</p>
+						</div>
+				</ol>
+			</div>
+	</div>
 </body>
 </html>
